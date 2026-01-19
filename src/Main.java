@@ -69,5 +69,6 @@ public class Main {
                 System.out.print(arr[index] + ", ");
             }
         }
+        System.out.println();
     }
 }
