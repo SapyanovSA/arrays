@@ -7,6 +7,7 @@ public class Main {
         int[] intArray = new int[]{1, 2, 3};
         float[] floatArray = {1.57f, 7.654f, 9.986f};
         boolean[] booleanArray = {false, true};
+
         //Task 2
         System.out.println("Task 2");
         for (int index = 0; index < intArray.length; index++) {
@@ -33,6 +34,7 @@ public class Main {
                 System.out.print(booleanArray[index] + ", ");
             }
         }
+
         //Task 3
         System.out.println("Task 3");
         for (int index = intArray.length - 1; index >= 0; index--) {
@@ -56,6 +58,7 @@ public class Main {
             }
             System.out.print(booleanArray[index] + ", ");
         }
+
         //Task 4
         System.out.println("Task 4");
         int[] arr = {1, 3, 5, 7, 9};
@@ -69,6 +72,5 @@ public class Main {
                 System.out.print(arr[index] + ", ");
             }
         }
-        System.out.println();
     }
 }
